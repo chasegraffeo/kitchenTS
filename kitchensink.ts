@@ -46,9 +46,14 @@ const person: {
   for (let i = 0; i < favVeg.length; i++) {
     console.log(favVeg[i]);
   }
+
+  interface Ppl {
+    name:string;
+    age: number;
+  }
   
   
-  let People: Array<T> =[
+  let People: Array<Ppl> =[
     {
       name: "Chase",
       age: 28
