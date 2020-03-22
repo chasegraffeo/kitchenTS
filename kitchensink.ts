@@ -28,7 +28,7 @@ const person: {
   let greeting = "Hello World!";
   let greet = 100;
   sayHello(greeting);
-  sayHello(greet);
+  sayHello(greet); //just to show it is working properly
   
   function checkAge(nam: string, ag: number) {
     if (ag < 21) {
